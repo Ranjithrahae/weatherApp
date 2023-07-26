@@ -1,9 +1,9 @@
 <div class="container">
   <div class="upperdata">
-    <img src="../assets/daysky.jpg" alt="" *ngIf="16 > 15">
-    <img src="../assets/coldsky.jpg" alt="" *ngIf="16 <= 15">
+    <img src="../assets/daysky.jpg" alt="" *ngIf="16 < 15">
+    <img src="../assets/coldsky.jpg" alt="" *ngIf="16 <=16">
     <div class="weather-data">
-      <div class="location">trichy</div>
+      <div class="location">Trichy</div>
     <div class="temp">{{14.40|number:'1.0-0'}}°C</div>
   </div>
   </div>
